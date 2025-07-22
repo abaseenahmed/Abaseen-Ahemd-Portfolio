@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Abaseen Ahmed – Software Engineer, Web Developer, Blogger from Faisalabad, Pakistan" />
+  <link rel="icon" href="favicon.ico" />
+  <title>Abaseen Ahmed | Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+  <div id="page-loader" aria-label="Loading" tabindex="0">
+    <div class="loader-logo">AA</div>
+    <div class="loader-spinner"></div>
+  </div>
+
+  <header>
+    <nav id="navbar" aria-label="Main navigation" tabindex="0">
+      <div class="logo">Abaseen</div>
+      <button class="hamburger" aria-label="Open navigation" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="dark-toggle" aria-label="Toggle Dark Mode">🌙</button>
+    </nav>
+  </header>
+<div id="scroll-progress"></div>
+
+  <section id="hero" data-section="hero">
+    <div class="parallax-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+    
+    <!-- Profile Image -->
+    <div class="hero-image zoom-in">
+  <div class="hero-image-border">
+    <img src="Images/Profile Picture.png" alt="Abaseen Ahmed">
+  </div>
+</div>
+
+
+    <h1>Hello, I'm<br><span class="name-highlight">Abaseen Ahmed</span></h1>
+    <h2 class="typed-text" data-text='["Software Engineer", "Web Developer", "Blogger"]'></h2>
+
+    <div class="hero-cta zoom-in">
+      <a href="#projects" class="btn primary-btn">Explore Projects</a>
+      <a href="Images/cv.pdf" download="My_CV.pdf" id="download-resume" class="btn outline-btn">Download Resume</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">&#x21e3;</div>
+  </section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-light)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+  <div class="floating-shape shape1"></div>
+  <div class="floating-shape shape2"></div>
+
+  <section id="about" class="fade-in" data-section="about">
+  <div class="container about-container">
+    <div class="about-image slide-in">
+      <img src="Images/About Me Picture.png" alt="Abaseen Ahmed" class="profile-img" />
+    </div>
+    <div class="about-divider"></div>
+    <div class="about-content slide-in">
+      <h3 class="section-subtitle">👨‍💻 About Me</h3>
+      <p>
+        I'm <strong>Abaseen Ahmed</strong>, a passionate Software Engineering student from Faisalabad, Pakistan.
+        I specialize in front-end development, SEO strategy, and modern digital publishing. With a strong focus on
+        clean code and engaging user experiences, I build responsive web apps that blend function and beauty.
+      </p>
+      <h3 class="section-subtitle">💡 My Skills</h3>
+      <p>
+        I'm fluent in HTML, CSS, JavaScript, SEO, WordPress, and Git — currently exploring React to deepen my modern
+        front-end toolkit. My projects include managing 700+ blog articles, optimizing content for search visibility,
+        and growing educational YouTube channels. I love mixing code with creativity.
+      </p>
+    </div>
+  </div>
+  <div class="floating-shape shape3"></div>
+</section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-dark)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+
+  <section id="skills" class="fade-in" data-section="skills">
+    <h2>Skills</h2>
+    <div class="skill-bars">
+  <div class="skill-item slide-in" data-skill="HTML" data-percent="95">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+    <div class="skill-bar">
+      <div class="skill-fill">HTML — 95%</div>
+    </div>
+  </div>
+
+  <div class="skill-item slide-in" data-skill="CSS" data-percent="90">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+    <div class="skill-bar">
+      <div class="skill-fill">CSS — 90%</div>
+    </div>
+  </div>
+
+  <div class="skill-item slide-in" data-skill="JavaScript" data-percent="85">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+    <div class="skill-bar">
+      <div class="skill-fill">JavaScript — 85%</div>
+    </div>
+  </div>
+
+  <div class="skill-item slide-in" data-skill="React" data-percent="75">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+    <div class="skill-bar">
+      <div class="skill-fill">React — 75%</div>
+    </div>
+  </div>
+
+    <div class="skill-item slide-in" data-percent="80">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress" />
+        <div class="skill-bar">
+            <div class="skill-fill">WordPress - 55%</div>
+        </div>
+    </div>
+
+</div>
+
+  </section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-light)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+<!-- Project Section Code Here -->
+  <section id="projects" class="fade-in" data-section="projects">
+  <div class="container">
+    <h2>My Projects</h2>
+
+    <div class="filter-btns slide-in">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="web">Web</button>
+      <button data-filter="blogging">Blogging</button>
+      <button data-filter="youtube">YouTube</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project Card 1 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/portfolio Project.png" alt="Portfolio Website">
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio site built using HTML, CSS, and JavaScript with animations and dark mode.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project Card 2 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/SEO Project.webp" alt="SEO Analyzer Tool">
+        <div class="project-info">
+          <h3>SEO Analyzer Tool</h3>
+          <p>A real-time SEO tool to evaluate keywords, meta tags, and content performance.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project Card 3 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/CMS project.webp" alt="Tech Blog CMS">
+        <div class="project-info">
+          <h3>Tech Blog CMS</h3>
+          <p>A WordPress-powered blog with 700+ articles and automated SEO features.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project Card 4 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/YouTube-AUTOMATION-AI-STATISTICS.webp" alt="YT Automation">
+        <div class="project-info">
+          <h3>YouTube Automation</h3>
+          <p>Automated YouTube shorts generation and keyword scheduling with API integration.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project Card 5 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/tools_for_backlink_management-1024x683.webp" alt="Backlink Manager">
+        <div class="project-info">
+          <h3>Backlink Manager</h3>
+          <p>A dashboard for managing blog backlinks, rankings, and content score tracking.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+
+      <!-- Project Card 6 -->
+       <div class="project-wrapper slide-in">
+      <div class="project-card" data-demo="https://your-demo-link.com" data-video="Images/demo.mp4">
+        <img src="Images/download.jfif" alt="JS Quiz App">
+        <div class="project-info">
+          <h3>JavaScript Quiz App</h3>
+          <p>An interactive quiz app using vanilla JS and localStorage for progress tracking.</p>
+          <button class="btn live-demo-btn">Live Demo</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-dark)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+<!-- Experience Section Code Here -->
+  <section id="experience" class="fade-in" data-section="experience">
+  <div class="container">
+    <h2>Experience Timeline</h2>
+
+    <div class="timeline-centered">
+
+      <div class="timeline-item left slide-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-box">
+          <h3>🎓 BSc Software Engineering</h3>
+          <p><strong>University of Faisalabad</strong> — 2021 – Present</p>
+          <p>Studying architecture, full-stack systems, and data structures with hands-on projects.</p>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+
+      <div class="timeline-item right slide-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-box">
+          <h3>✍️ Technical Blogger</h3>
+          <p><strong>Own Blog Network</strong> — 2022 – Present</p>
+          <p>Published 700+ articles on SEO, WordPress, and tech education. Grew audience through optimization.</p>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+
+      <div class="timeline-item left slide-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-box">
+          <h3>📹 YouTube Shorts Creator</h3>
+          <p><strong>TechNinja Channel</strong> — 2023 – Present</p>
+          <p>Created engaging tech shorts and content strategies with 100K+ monthly impressions.</p>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+
+      <div class="timeline-item right slide-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-box">
+          <h3>💼 Freelance Developer</h3>
+          <p><strong>Remote Projects</strong> — 2022 – Present</p>
+          <p>Built web & blog sites using HTML, JS, WordPress. Focused on performance and SEO wins.</p>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-light)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+
+  <section id="testimonials" class="fade-in" data-section="testimonials">
+  <div class="container">
+    <h2>What Clients Say</h2>
+
+    <div class="testi-carousel">
+      <div class="testi-track">
+
+        <div class="testi-card slide-in">
+          <img class="testi-avatar" src="Images/Profile Picture.png" alt="Client 1">
+          <div class="stars">★★★★★</div>
+          <p>"Abaseen is a fantastic developer and a great team player!"</p>
+          <h4>Client 1</h4>
+          <span>CEO, Company</span>
+        </div>
+
+        <div class="testi-card slide-in">
+          <img src="https://picsum.photos/80?random=102" alt="Client 2">
+          <p>"His knowledge of WordPress and SEO is top-tier. We saw a 60% traffic jump."</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <h4>Ahmed Raza</h4>
+          <span>Blog Optimization</span>
+        </div>
+
+        <div class="testi-card slide-in">
+          <img src="https://picsum.photos/80?random=103" alt="Client 3">
+          <p>"Abaseen's JavaScript skills are elite. He delivered ahead of schedule with perfect UI."</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <h4>Emily Khan</h4>
+          <span>Web App Frontend</span>
+        </div>
+
+      </div>
+
+      <button id="testi-prev">←</button>
+      <button id="testi-next">→</button>
+    </div>
+  </div>
+</section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-dark)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+  <section id="fun-facts" class="fade-in" data-section="fun-facts">
+    <div class="container">
+      <h2>Fun Facts & Hobbies</h2>
+      <div class="fun-facts-list">
+        <div class="fun-fact slide-in fa fa-books">📚 <span>Reading Books</span></div>
+        <div class="fun-fact slide-in fa fa-world">🌍 <span>Loves to travel</span></div>
+        <div class="fun-fact slide-in fa fa-laptop">  <span>Coding</span></div>
+      </div>
+    </div>
+  </section>
+  <div class="section-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="var(--bg-light)" d="M0,80 C480,160 960,0 1440,80 L1440,120 L0,120 Z"/></svg>
+  </div>
+
+  <section id="contact" class="fade-in" data-section="contact">
+  <div class="container contact-container">
+    <h2>Let’s Connect</h2>
+
+    <div class="contact-container">
+
+      <!-- Contact Form -->
+      <form id="contact-form" class="contact-form slide-in" novalidate>
+        <div class="form-field">
+          <input type="text" id="name" required />
+          <label for="name">Name</label>
+          <span class="input-underline"></span>
+          <span class="input-success"></span>
+          <span class="input-error" id="name-error"></span>
+        </div>
+
+        <div class="form-field">
+          <input type="email" id="email" required />
+          <label for="email">Your Email</label>
+          <span class="error-msg" id="email-error"></span>
+        </div>
+
+        <div class="form-field">
+          <textarea id="message" required></textarea>
+          <label for="message">Your Message</label>
+          <span class="error-msg" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+        <button type="button" class="copy-email-btn">Copy Email</button>
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-btn">Send via WhatsApp</a>
+        <div id="form-success" class="hidden"><span class="checkmark">✔</span> Message sent!</div>
+      </form>
+
+      <!-- Social Icons -->
+      <div class="contact-social slide-in">
+  <h3>Find Me Online</h3>
+  <ul class="social-list">
+  <li>
+    <a href="https://github.com/abaseenahmed" target="_blank">
+      <i class="fab fa-github"></i>
+      <div>
+        <span>GitHub</span>
+        <small>github.com/abaseenahmed</small>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/abaseen-ahmed-b2b19827a/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      <div>
+        <span>LinkedIn</span>
+        <small>linkedin.com/in/abaseen-ahmed</small>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://youtube.com/" target="_blank">
+      <i class="fab fa-youtube"></i>
+      <div>
+        <span>YouTube</span>
+        <small>youtube.com/@abaseen</small>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://facebook.com/" target="_blank">
+      <i class="fab fa-facebook"></i>
+      <div>
+        <span>Facebook</span>
+        <small>facebook.com/abaseenKhan</small>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/" target="_blank">
+      <i class="fab fa-x-twitter"></i>
+      <div>
+        <span>Twitter</span>
+        <small>twitter.com/abaseen</small>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="Images/cv.pdf" download="My_CV.pdf">
+      <i class="fas fa-file-download"></i>
+      <div>
+        <span>Download CV</span>
+        <small>Direct PDF Download</small>
+      </div>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+
+    </div>
+  </div>
+</section>
+<div class="footer-divider"></div>
+<div class="footer-divider"></div>
+
+
+  <footer id="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Abaseen Ahmed</h3>
+      <p>Front-End Developer • Blogger • YouTuber</p>
+    </div>
+
+    <div class="footer-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://github.com/abaseenahmed/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/abaseen-ahmed-b2b19827a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://youtube.com/" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>Available for freelance & contract work</span>
+    <span>© 2025 Abaseen Ahmed. All rights reserved.</span>
+  </div>
+
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+</footer>
+<!-- Under Construction Modal -->
+<div id="under-construction-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="modal-close">&times;</span>
+    <h3>🚧 Coming Soon</h3>
+    <p>This section is under construction. Please check back later or follow me on social platforms.</p>
+  </div>
+</div>
+
+<!-- Project Modal -->
+<div id="project-modal" class="modal" aria-label="Project details" tabindex="-1">
+  <div class="modal-content">
+    <button class="close-btn" id="close-project-modal">&times;</button>
+    <div id="modal-project-content"></div>
+    <div id="modal-demo-content"></div>
+  </div>
+</div>
+
+
+  <button id="back-to-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
